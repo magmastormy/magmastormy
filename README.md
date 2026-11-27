@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Takudzwa Stanley Maguma, software engineer. MSc Artificial Intelligence at NJUPT; BSc Computer Science, Wenzhou University." width="100%">
+  <img src="./assets/banner.svg" alt="Takudzwa Stanley Maguma, software engineer. MSc Artificial Intelligence at NJUPT; BEng Computer Science, Wenzhou University." width="100%">
 </p>
 
 <p align="center">
@@ -10,14 +10,14 @@
 
 ### ⊢ About
 
-I'm a software engineer and a **Master's student in Artificial Intelligence at Nanjing University of Posts and Telecommunications (NJUPT)**, with a **BSc in Computer Science from Wenzhou University**.
+I'm a software engineer and a **Master's student in Artificial Intelligence at Nanjing University of Posts and Telecommunications (NJUPT)**, with a **BEng in Computer Science from Wenzhou University**.
 
 I build software end to end: Windows system tools in Rust, full-stack platforms in TypeScript, mobile apps in Flutter, and trading and machine-learning systems in Python and MQL5. Alongside my studies I run a small software studio that builds products for clients and for ourselves. I care about software that is fast, tested, and handed over properly.
 
 **I'm open to software engineering and AI/ML roles and internships.**
 
 <p align="center">
-  <img src="./assets/education.svg" alt="Education: BSc Computer Science, Wenzhou University. MSc Artificial Intelligence, Nanjing University of Posts and Telecommunications, in progress. Next: your team." width="100%">
+  <img src="./assets/education.svg" alt="Education: BEng Computer Science, Wenzhou University. MSc Artificial Intelligence, Nanjing University of Posts and Telecommunications, in progress. Next: your team." width="100%">
 </p>
 
 ### ⊢ Selected work
