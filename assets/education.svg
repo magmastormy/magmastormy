@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="230" viewBox="0 0 1280 230" role="img" aria-label="Education: BSc Computer Science, Wenzhou University. MSc Artificial Intelligence, Nanjing University of Posts and Telecommunications, in progress. Next: your team.">
+<title>Education</title>
+<style>
+.k { font: 500 12px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #9db3bc; }
+.t { font: 800 27px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #eef1e8; letter-spacing: -0.5px; }
+.d { font: 400 14.5px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #9db3bc; }
+.m { font: 800 30px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #c7ff22; letter-spacing: -0.5px; }
+.ml { font: 500 10.5px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 1.6px; fill: #9db3bc; }
+.fade { opacity: 0; animation: fade .9s ease .2s forwards; }
+@keyframes fade { to { opacity: 1; } }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+@keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 16; opacity: 0; } }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; } }
+
+.h { font: 800 24px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #eef1e8; letter-spacing: -0.4px; }
+.s { font: 400 15px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #9db3bc; }
+.line { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 2.4s cubic-bezier(.6,.05,.3,1) .2s forwards; }
+.n1 { animation-delay: .4s; } .n2 { animation-delay: 1.3s; } .n3 { animation-delay: 2.2s; }
+</style>
+<rect x=".5" y=".5" width="1279" height="229" rx="14" fill="#0f1b24" stroke="#213240"/>
+<text class="k" x="40" y="44">⊢ EDUCATION</text>
+<path class="line" d="M60 104H1000" stroke="#eef1e8" stroke-width="2"/>
+<path d="M1000 104H1200" stroke="#9db3bc" stroke-width="2" stroke-dasharray="6 8"/>
+<g class="fade n1"><circle cx="60" cy="104" r="9" fill="#eef1e8"/>
+<text class="k" x="40" y="150">BACHELOR'S DEGREE</text><text class="h" x="40" y="182">BSc Computer Science</text><text class="s" x="40" y="206">Wenzhou University</text></g>
+<g class="fade n2"><circle cx="520" cy="104" r="16" fill="none" stroke="#c7ff22" style="animation:ring 1.8s ease-out 2s infinite"/><circle cx="520" cy="104" r="10" fill="#c7ff22"/>
+<text class="k" x="500" y="150" fill="#c7ff22" style="fill:#c7ff22">MASTER'S DEGREE · IN PROGRESS</text><text class="h" x="500" y="182">MSc Artificial Intelligence</text><text class="s" x="500" y="206">Nanjing University of Posts and Telecommunications</text></g>
+<g class="fade n3"><circle cx="1200" cy="104" r="9" fill="none" stroke="#9db3bc" stroke-width="2" stroke-dasharray="3 3"/>
+<text class="k" x="1240" y="150" text-anchor="end">NEXT</text><text class="h" x="1240" y="182" text-anchor="end">Your team?</text><text class="s" x="1240" y="206" text-anchor="end">Open to roles &amp; internships</text></g>
+</svg>

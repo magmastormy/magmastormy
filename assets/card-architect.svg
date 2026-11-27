@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="380" viewBox="0 0 600 380" role="img" aria-label="Architect Pro: AI diagram studio: plain language or broken code in, an editable architecture diagram out.">
+<title>Architect Pro</title>
+<style>
+.k { font: 500 12px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #9db3bc; }
+.t { font: 800 27px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #eef1e8; letter-spacing: -0.5px; }
+.d { font: 400 14.5px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #9db3bc; }
+.m { font: 800 30px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #c7ff22; letter-spacing: -0.5px; }
+.ml { font: 500 10.5px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 1.6px; fill: #9db3bc; }
+.fade { opacity: 0; animation: fade .9s ease .2s forwards; }
+@keyframes fade { to { opacity: 1; } }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+@keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 16; opacity: 0; } }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; } }
+</style>
+<defs><clipPath id="vis"><rect x="1" y="1" width="598" height="230" rx="13"/></clipPath></defs>
+<rect x=".5" y=".5" width="599" height="379" rx="14" fill="#0f1b24" stroke="#213240"/>
+<g clip-path="url(#vis)"><defs><pattern id="g" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#b7a5f4" stroke-opacity="0.08"/></pattern></defs><rect width="600" height="232" fill="#0e1020"/><rect width="600" height="232" fill="url(#g)"/><path d="M174 62C214 62 214 106 250 106" fill="none" stroke="#b7a5f4" stroke-width="1.6" stroke-dasharray="260" stroke-dashoffset="260" style="animation:draw 1s ease 1.4s forwards"/><path d="M174 150C214 150 214 106 250 106" fill="none" stroke="#b7a5f4" stroke-width="1.6" stroke-dasharray="260" stroke-dashoffset="260" style="animation:draw 1s ease 1.7s forwards"/><path d="M354 106C394 106 394 62 430 62" fill="none" stroke="#b7a5f4" stroke-width="1.6" stroke-dasharray="260" stroke-dashoffset="260" style="animation:draw 1s ease 2.0s forwards"/><path d="M354 106C394 106 394 150 430 150" fill="none" stroke="#b7a5f4" stroke-width="1.6" stroke-dasharray="260" stroke-dashoffset="260" style="animation:draw 1s ease 2.3s forwards"/><path d="M482 168V196H302V124" fill="none" stroke="#b7a5f4" stroke-width="1.6" stroke-dasharray="260" stroke-dashoffset="260" style="animation:draw 1s ease 2.5999999999999996s forwards"/><g class="fade" style="animation-delay:0.2s"><rect x="70" y="44" width="104" height="36" rx="6" fill="#161a2e" stroke="#b7a5f4" stroke-opacity="0.6"/><text x="122" y="66" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.5" fill="#eef1e8">PROMPT</text></g><g class="fade" style="animation-delay:0.45s"><rect x="70" y="132" width="104" height="36" rx="6" fill="#161a2e" stroke="#b7a5f4" stroke-opacity="0.6"/><text x="122" y="154" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.5" fill="#eef1e8">ESSAY</text></g><g class="fade" style="animation-delay:0.7s"><rect x="250" y="88" width="104" height="36" rx="6" fill="#161a2e" stroke="#c7ff22" stroke-opacity="1"/><text x="302" y="110" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.5" fill="#c7ff22">LLM</text></g><g class="fade" style="animation-delay:0.95s"><rect x="430" y="44" width="104" height="36" rx="6" fill="#161a2e" stroke="#b7a5f4" stroke-opacity="0.6"/><text x="482" y="66" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.5" fill="#eef1e8">MERMAID</text></g><g class="fade" style="animation-delay:1.2s"><rect x="430" y="132" width="104" height="36" rx="6" fill="#161a2e" stroke="#b7a5f4" stroke-opacity="0.6"/><text x="482" y="154" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.5" fill="#eef1e8">REPAIR</text></g><text x="350" y="212" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.5" fill="#9db3bc">AUTO-REPAIR LOOP · 5 TRIES</text></g>
+<path d="M1 230H599" stroke="#213240"/>
+<g class="fade">
+<text class="k" x="28" y="264">OUR PRODUCT · AI · REACT + EXPRESS</text>
+<text class="t" x="28" y="300">Architect Pro</text>
+<text class="d" x="28" y="328"><tspan x="28" dy="0">AI diagram studio: plain language or broken code</tspan><tspan x="28" dy="20">in, an editable architecture diagram out.</tspan></text>
+<text class="m" x="572" y="300" text-anchor="end">30+</text>
+<text class="ml" x="572" y="320" text-anchor="end">DIAGRAM LANGUAGES</text>
+</g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="380" viewBox="0 0 600 380" role="img" aria-label="Multi-Strategy Trading Engine: 20 strategies vote before any order reaches the broker, behind one risk gate none can bypass.">
+<title>Multi-Strategy Trading Engine</title>
+<style>
+.k { font: 500 12px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 2px; fill: #9db3bc; }
+.t { font: 800 27px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #eef1e8; letter-spacing: -0.5px; }
+.d { font: 400 14.5px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #9db3bc; }
+.m { font: 800 30px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #c7ff22; letter-spacing: -0.5px; }
+.ml { font: 500 10.5px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; letter-spacing: 1.6px; fill: #9db3bc; }
+.fade { opacity: 0; animation: fade .9s ease .2s forwards; }
+@keyframes fade { to { opacity: 1; } }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+@keyframes ring { 0% { r: 5; opacity: .7; } 100% { r: 16; opacity: 0; } }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; } }
+</style>
+<defs><clipPath id="vis"><rect x="1" y="1" width="598" height="230" rx="13"/></clipPath></defs>
+<rect x=".5" y=".5" width="599" height="379" rx="14" fill="#0f1b24" stroke="#213240"/>
+<g clip-path="url(#vis)"><rect width="600" height="232" fill="#101820"/><g stroke="#1c2832" stroke-dasharray="3 6"><path d="M0 60H600M0 110H600M0 160H600"/></g><path d="M0 205H600" stroke="#2b3a46"/><path d="M20 190 L70 168 L110 180 L160 136 L200 150 L250 104 L290 118 L340 76 L380 90 L430 58 L480 70 L540 38 L580 46 V232 H20Z" fill="#c7ff22" fill-opacity=".07"/><path d="M20 190 L70 168 L110 180 L160 136 L200 150 L250 104 L290 118 L340 76 L380 90 L430 58 L480 70 L540 38 L580 46" fill="none" stroke="#c7ff22" stroke-width="2.6" stroke-dasharray="900" stroke-dashoffset="900" style="animation:draw 2.8s cubic-bezier(.6,.05,.3,1) .3s forwards"/><circle cx="540" cy="38" r="5" fill="#c7ff22" class="fade" style="animation-delay:2.9s"/><circle cx="540" cy="38" r="5" fill="none" stroke="#c7ff22" style="animation:ring 1.8s ease-out 3s infinite"/><g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.5" fill="#9db3bc"><text x="24" y="28">CONSENSUS · RISK GATE · EXECUTION</text></g><g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.5"><rect x="430" y="188" width="146" height="26" rx="3" fill="#0b1f2a" stroke="#2b3a46"/><text x="503" y="205" text-anchor="middle" fill="#c7ff22">FX · METALS · IDX</text></g></g>
+<path d="M1 230H599" stroke="#213240"/>
+<g class="fade">
+<text class="k" x="28" y="264">OUR PRODUCT · MQL5 + PYTHON</text>
+<text class="t" x="28" y="300">Multi-Strategy Trading Engine</text>
+<text class="d" x="28" y="328"><tspan x="28" dy="0">20 strategies vote before any order reaches the</tspan><tspan x="28" dy="20">broker, behind one risk gate none can bypass.</tspan></text>
+<text class="m" x="572" y="300" text-anchor="end">20</text>
+<text class="ml" x="572" y="320" text-anchor="end">STRATEGY MODULES</text>
+</g>
+</svg>
