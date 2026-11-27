@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+  <title id="t">Takudzwa Stanley Maguma</title>
+  <desc id="d">Software engineer building web apps, systems and machine-learning software.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#eef1e8" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#c7ff22" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#c7ff22" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .name { font: 800 56px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #eef1e8; letter-spacing: -1.5px; }
+      .role { font: 500 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #9db3bc; }
+      .mono { font: 500 14px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; fill: #9db3bc; letter-spacing: 2.5px; }
+      .lime { fill: #c7ff22; }
+      .rule { fill: none; stroke: #eef1e8; stroke-width: 2; stroke-dasharray: 1080; stroke-dashoffset: 1080; animation: draw 2.4s cubic-bezier(.6,.05,.3,1) .3s forwards; }
+      .pen { fill: #c7ff22; opacity: 0; animation: pen 2.4s cubic-bezier(.6,.05,.3,1) .3s forwards, pulse 2.2s ease-in-out 2.8s infinite; }
+      .fade { opacity: 0; animation: fade .8s ease forwards; }
+      .f1 { animation-delay: .1s; } .f2 { animation-delay: .5s; } .f3 { animation-delay: 1.2s; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes pen { 0% { opacity: 1; transform: translateX(0); } 100% { opacity: 1; transform: translateX(1080px); } }
+      @keyframes pulse { 50% { opacity: .35; } }
+      @keyframes fade { to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .rule, .pen, .fade { animation: none; opacity: 1; stroke-dashoffset: 0; } .pen { transform: translateX(1080px); } }
+    </style>
+  </defs>
+  <rect width="1280" height="300" fill="#0b1f2a"/>
+  <rect width="1280" height="300" fill="url(#grid)"/>
+  <rect width="1280" height="300" fill="url(#glow)"/>
+  <text class="mono fade f1" x="100" y="78">⊢ 01 · SOFTWARE ENGINEER · OPEN TO WORK</text>
+  <text class="name fade f1" x="100" y="148">Takudzwa Stanley Maguma</text>
+  <text class="role fade f2" x="100" y="190">Web apps, systems and machine learning · TypeScript, Python, Rust</text>
+  <path class="rule" d="M100 232H1180"/>
+  <path d="M100 226V238" stroke="#eef1e8" stroke-width="2"/>
+  <path class="pen" d="M100 226l6 6-6 6-6-6z"/>
+  <text class="mono fade f3" x="1180" y="268" text-anchor="end">BUILT TO LAST · GITHUB.COM/MAGMASTORMY</text>
+</svg>
